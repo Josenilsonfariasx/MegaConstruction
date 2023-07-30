@@ -1,0 +1,14 @@
+.flexBox{
+    padding: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    & > div:last-child{
+        width: 100%;
+    }
+
+    @media (min-width: 720px){
+        flex-direction: row;
+    }
+}

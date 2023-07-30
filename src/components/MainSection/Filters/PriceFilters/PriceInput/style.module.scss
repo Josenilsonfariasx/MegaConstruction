@@ -1,0 +1,10 @@
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8125rem;
+
+    input{
+        width: 100%;
+        max-width: 190px;
+    }
+}

@@ -1,0 +1,15 @@
+.bookCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.03);
+    border-left: 4px solid var(--color-primary);
+    padding: 2.5rem;
+
+    & > div{
+        min-width: clamp(0px, 100%, 300px)
+    }
+}

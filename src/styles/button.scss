@@ -1,0 +1,23 @@
+.btn{
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-white);
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+
+    padding: 0 0.9375rem;
+    height: 3.1875rem;
+
+    border-radius: 8px;
+    background: var(--color-primary);
+
+    transition: .4s;
+
+    &:hover{
+        filter: brightness(1.2);
+    }
+}
